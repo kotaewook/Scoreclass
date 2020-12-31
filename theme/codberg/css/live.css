@@ -1,0 +1,51 @@
+.live_table {width:100%;}
+.live_table .league {width:100px; text-align:left;}
+.live_table .team {width:150px; text-align:left;}
+.live_table .team:nth-child(1) {text-align:right;}
+.live_table .time {width:100px;}
+.live_table .score {width:100px;}
+.live_table th.up, .live_table td.up {width:50px;}
+.live_table tbody tr:nth-child(2n+1) {background:#f9f9f9;}
+.live_table tbody tr.up {display:none;}
+.line td {height:50px;}
+.live_table td > span,.live_bs td > span {display:inline-block; cursor:pointer; vertical-align:middle;}
+.live_table span.up:before,.live_bs td > span.up:before {content:'▲'; color:#12155a;}
+.live_table span.down:before,.live_bs td > span.down:before {content:'▼'; color:#ff7e00;}
+.live_table th {text-align:center !important; font-weight:bold;}
+.live_table th.finish {background:#363744; color:#fff; border:none; width:100%;}
+
+.live_table td {border:1px solid #d1d1d1; border-top:none; border-right:none; background:#fff; font-size:12px; padding:5px 10px;  font-weight:bold;}
+.live_table td:first-child {border-left:none;}
+
+.live_table.wish, .live_bs .wish {display:none; margin-bottom:10px;}
+.live_table.wish.view, .live_bs .wish.view {display:table;}
+.live_table.wish th, .live_bs .wish th {background:#000; border:none; position:relative; color:#fff;}
+.live_table.wish th span.total, .live_bs .wish span.total {display:block; position:absolute; background:#ff7e00; color:#fff; padding:0 10px; top:6px; right:6px; cursor:pointer; font-size:11px; line-height:20px; letter-spacing:-0.5px; font-weight:normal;}
+.live_table.wish tbody tr:nth-child(2n+1) {background:#fff;}
+.live_table.wish tbody tr:nth-child(2n) {background:#f9f9f9;}
+
+.live_bs table {width:100%; table-layout:fixed;}
+.live_bs th.score, .live_bs td.score {width:20px;}
+.live_bs table td.score {width:20px !important; padding:0 !important; font-size:12px !important;}
+.live_bs table td {background:#fff;}
+.live_bs table tr:nth-child(2) td:nth-child(2) {color:#555;}
+.live_bs table td.win_score {color:#ff4800;}
+.live_bs table td.start_time {line-height:1.3; text-align:center; padding:0 10px; font-size:12px;}
+.live_bs table td.league {line-height:1.3; text-align:center; padding:0 10px; font-size:12px;}
+.live_bs table td.team_position {width:50px; background:#f6f6f6;}
+.live_bs table td.team > b {display:table-cell; width:75px; text-align:right;vertical-align:middle;}
+.live_bs table td.team > span {display:table-cell; width:180px; padding:0 10px 0 0; text-align:left;}
+.live_bs table td.team > span > span {display:inline-block; margin-right:5px; border-radius:18px; line-height:18px; background:#999; color:#fff; font-weight:normal; width:45px; text-align:center;}
+.live_bs table td.team > span > span.away {background:#ccc;}
+.live_bs table td.team > b.live_sc_score {font-size:15px;}
+.live_bs table td.live_bs_bp {width:80px;}
+.live_bs table td:last-child {padding: 0 10px;line-height: 16px;text-align:right;font-size:14px;font-weight: bold;border-right:none;}
+.live_bs table td:last-child p span {font-size:12px;color:#777;}
+.live_bs tbody tr.up {display:none;}
+.tb_1st_hr_bb {position:relative}
+.tb_1st_hr_bb p {position:absolute;top: 0;left: 0;width: 100%;text-align: center;line-height: 16px;font-size: 10px;}
+
+td.no-list {height:200px !important; font-size:13px; color:#999; text-align:center !important; font-weight:normal !important;}
+
+.live_sc {width:796px; position:relative; float:left; margin:0 30px 40px 0; background:#fff; border:1px solid #d1d1d1; border-top:none;}
+.live_sc > .warp {padding:20px;}

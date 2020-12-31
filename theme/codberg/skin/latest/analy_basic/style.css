@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* 새글 스킨 (latest) */
+
+.analy_lat {position:relative; float:left; width:378px; margin-right:30px; border:1px solid #d1d1d1; overflow:hidden;}
+.analy_lat .analy_lat_title {
+    font-size: 18px;
+    font-weight: 500;
+    border-bottom: 1px solid #d1d1d1;
+    font-weight: bold;
+    line-height: 50px;
+    padding-left: 20px;
+    background: #f5f5f5;
+}
+.analy_lat .analy_lat_title a{color: #111;position:relative;}
+.analy_lat .analy_lat_title a:after{display: none;position:absolute;bottom:-1px;left:0;width:100%;height:2px;background:#253dbe;content:'';}
+.analy_lat ul{
+    background:#fff;
+    height:172px;
+    padding:10px 0;
+}
+.analy_lat li {
+    position:relative;
+    line-height: 18px;
+    font-size: 14px;
+    padding:10px 0 10px 50px;
+}
+.analy_lat li:before{position: absolute;top: 12px;left: 0px;}
+.analy_lat li:after{
+    content:'';
+    position:absolute;
+    top:50%;
+    left:20px;
+    transform: translateY(-50%);
+    width:22px;
+    height:22px;
+}
+.analy_lat li:first-child:after{
+    background:url(../../../img/icon_balls2.png) no-repeat 0 -99px;
+}
+.analy_lat li:nth-child(2):after{
+    background:url(../../../img/icon_balls2.png) no-repeat 0 -66px;
+}
+.analy_lat li:nth-child(3):after{
+    background:url(../../../img/icon_balls2.png) no-repeat 0 0;
+}
+.analy_lat li:last-child:after{
+    background:url(../../../img/icon_balls2.png) no-repeat 0 -33px;
+}
+.analy_lat li a {color: #444;}
+.analy_lat li a:hover{color:#aaa}
+.analy_lat li .fa-heart{color:#ff0000;}
+.analy_lat li .fa-lock{display: inline-block;line-height: 14px;width: 16px;font-size: 0.833em;color: #4f818c;background: #cbe3e8;text-align: center;border-radius: 2px;font-size: 12px;border:1px solid #a2c6ce}
+.analy_lat li .new_icon{display:inline-block;width: 16px;line-height:16px;font-size:0.833em;color:#ffff00;background:#6db142;text-align:center;border-radius: 2px;}
+.analy_lat li .hot_icon{display:inline-block;width: 16px;line-height:16px ;font-size:0.833em;color:#fff;background:#e52955;text-align:center;border-radius: 2px;}
+.analy_lat li .fa-caret-right{color:#bbb}
+.analy_lat .lt_date{display:none; position:absolute;top:20px;right:20px; color: #999;font-size: 14px;line-height: 18px;}
+.analy_lat  .empty_li{line-height:145px ;color:#666;text-align:center;padding:0;}
+.analy_lat  .empty_li:before{background:none;padding:0}
+
+.analy_lat .lt_cmt{background:#5c85c1;color:#fff; font-size:11px;height:16px;line-height:16px;padding:0 5px;border-radius:3px;
+-webkit-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+-moz-box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);
+box-shadow: inset 0 2px 5px  rgba(255,255,255,0.4);}
+.analy_lat .lt_more {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    color: #aaa;
+    border-radius: 3px;
+    text-align: center;}
+.analy_lat .lt_more:hover{color:#777}
